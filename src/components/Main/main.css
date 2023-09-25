@@ -1,0 +1,12 @@
+main{
+    display: flex;
+    justify-content: space-around;
+}
+
+main div{
+    width: 20%;
+}
+
+main div p{
+    text-align: justify;
+}
