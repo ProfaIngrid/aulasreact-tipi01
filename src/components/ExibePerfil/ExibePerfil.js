@@ -1,9 +1,9 @@
-function ExibePerfil(props){
+function ExibePerfil({nome, img, caracteristica}){
     return(
         <div>
-            <img src={props.img} alt={props.nome}/>
-            <h1>Nome: {props.nome}</h1>
-            <p>Caracteristicas: {props.caracteristica}</p>
+            <img src={img} alt={nome}/>
+            <h1>Nome: {nome}</h1>
+            <p>Caracteristicas: {caracteristica}</p>
         </div>
     )
 }
