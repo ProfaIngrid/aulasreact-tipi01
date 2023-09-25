@@ -1,11 +1,11 @@
-import Logo from '../../images/footer.png';
+import Logo from '../../images/logoSemPng-removebg-preview.png';
 import './footer.css'
 
 function Footer() {
     return(
         <footer>
             <img src={Logo}/>
-            <h2>Meu jeito Ninja de ser :)</h2>
+            <h2>Venha ser um Rei dos Piratas você também :)</h2>
         </footer>
     )
 }
