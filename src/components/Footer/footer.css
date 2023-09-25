@@ -1,12 +1,12 @@
 footer {
-    background: #000000;
+    background: #fecb00;
     width: 100%;
-    position: absolute;
+    /* position: absolute; */
     bottom: 0;
-    color: azure;
+    color: #de0000;
 }
 
 img{
     padding-top: 1%;
-    width: 5%;
+    width: 12%;
 }
