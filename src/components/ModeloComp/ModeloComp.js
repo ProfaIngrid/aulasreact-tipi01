@@ -1,8 +1,8 @@
-function ModeloComp(props){
+function ModeloComp({titulo, pg}){
     return(
         <div className="teste">
-            <h1>{props.titulo}</h1>
-            <p>Paragrafo</p>
+            <h1>{titulo}</h1>
+            <p>{pg}</p>
         </div>
     )
 }
