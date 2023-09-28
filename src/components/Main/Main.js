@@ -13,10 +13,7 @@ function Main() {
 
     return(
         <main>
-            <ExibePerfil nome="Kakashi" caracteristica={caracKakashi} img={Kakashi}/>
-            <ExibePerfil nome="Naruto" caracteristica={caracNaruto} img={NarutoPerfil}/>
-            <ExibePerfil nome="Sasuke" caracteristica={caracSasuke} img={SasukePerfil}/>
-            <ExibePerfil nome="Sakura" caracteristica={caracSakura} img={Sakura}/>
+    
         </main>
     )
 }
