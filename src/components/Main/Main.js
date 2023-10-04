@@ -1,8 +1,13 @@
 import ExibePerfil from '../ExibePerfil/ExibePerfil';
 import NarutoPerfil from '../../images/narutoPerfil.webp';
 import SasukePerfil from '../../images/sasukePerfil.webp';
-import Sakura from '../../images/sakuraPerfil.webp';
-import Kakashi from '../../images/kakashiPerfil.webp';
+import SakuraPerfil from '../../images/sakuraPerfil.webp';
+import KakashiPerfil from '../../images/kakashiPerfil.webp';
+import KurenaiPerfil from '../../images/kurenaiPerfil.webp';
+import ShinoPerfil from '../../images/shinoPerfil.jpg';
+import HinataPerfil from '../../images/hinataPerfil.webp';
+import KibaPerfil from '../../images/kibaPerfil.webp';
+import Equipe from '../Equipe/Equipe';
 import './main.css';
 
 
@@ -14,7 +19,16 @@ function Main() {
 
     return(
         <main>
-           
+            <Equipe e={7}
+                n1='Kakashi' n2='Naruto' n3='Sakura' n4='Sasuke'
+                i1={KakashiPerfil} i2={NarutoPerfil} i3={SakuraPerfil} i4={SasukePerfil}
+                c1={caracKakashi} c2={caracNaruto} c3={caracSakura} c4={caracSasuke}
+                />
+            <Equipe e={8}
+                n1='Kurenai Yūhi' n2='Shino Aburame' n3='Hinata Hyuuga' n4='Kiba Inuzuka'
+                i1={KurenaiPerfil} i2={HinataPerfil} i3={ShinoPerfil} i4={KibaPerfil}
+                c1={caracKakashi} c2={caracNaruto} c3={caracSakura} c4={caracSasuke}
+                />
         </main>
     )
 }
