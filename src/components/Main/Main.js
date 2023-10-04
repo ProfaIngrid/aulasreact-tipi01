@@ -3,7 +3,6 @@ import NarutoPerfil from '../../images/narutoPerfil.webp';
 import SasukePerfil from '../../images/sasukePerfil.webp';
 import Sakura from '../../images/sakuraPerfil.webp';
 import Kakashi from '../../images/kakashiPerfil.webp';
-import Equipe from './components/Equipe/Equipe'
 import './main.css';
 
 
@@ -15,7 +14,7 @@ function Main() {
 
     return(
         <main>
-            <Equipe/>
+           
         </main>
     )
 }
