@@ -10,14 +10,12 @@ import ExercicioList from './components/ExercicioLista/ExercicioLista';
 import Equipe from './components/Equipe/Equipe';
 
 function App() {
-  const equipe7 = [
-    {nome: "Naruto", imagem: "", crt: "Caracteristica Naruto"},
-    {}
-  ]
-
+  
   return (
     <div className="App">
-      <Equipe listaP={equipe7}/>
+      <Header/>
+      <Main/>
+      <Footer/>
     </div>
   );
 }

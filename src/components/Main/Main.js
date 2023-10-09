@@ -17,18 +17,21 @@ function Main() {
     let caracSasuke = "Ele é um usuário talentoso do Sharingan e, mais tarde, desenvolve o Mangekyou Sharingan. Sasuke também se torna um mestre em técnicas de manipulação de raios, conhecidas como Raiton";
     let caracSakura = " Ela é altamente treinada em técnicas médicas e se destaca na manipulação de chakra para curar ferimentos. Além disso, ela desenvolve habilidades de combate notáveis";
 
+    const equipe7 = [
+        {nome: "Naruto", imagem: NarutoPerfil, crt: caracNaruto},
+        {nome: "Kakashi", imagem: KakashiPerfil, crt: caracKakashi},
+        {nome: "Sasuke", imagem: SasukePerfil, crt: caracSasuke},
+        {nome: "Sakura", imagem: SakuraPerfil, crt: caracSakura}
+      ]
+    
+      const equipe8 = [
+        {nome: "Teste", imagem: "", crt: ""}
+      ]
+    
     return(
         <main>
-            <Equipe e={7}
-                n1='Kakashi' n2='Naruto' n3='Sakura' n4='Sasuke'
-                i1={KakashiPerfil} i2={NarutoPerfil} i3={SakuraPerfil} i4={SasukePerfil}
-                c1={caracKakashi} c2={caracNaruto} c3={caracSakura} c4={caracSasuke}
-                />
-            <Equipe e={8}
-                n1='Kurenai Yūhi' n2='Shino Aburame' n3='Hinata Hyuuga' n4='Kiba Inuzuka'
-                i1={KurenaiPerfil} i2={HinataPerfil} i3={ShinoPerfil} i4={KibaPerfil}
-                c1={caracKakashi} c2={caracNaruto} c3={caracSakura} c4={caracSasuke}
-                />
+            <Equipe titulo={"Equipe 7"} listaP={equipe7}/>
+            <Equipe titulo={"Equipe 8"} listaP={equipe8}/>
         </main>
     )
 }
