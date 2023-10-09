@@ -10,26 +10,14 @@ import ExercicioList from './components/ExercicioLista/ExercicioLista';
 import Equipe from './components/Equipe/Equipe';
 
 function App() {
-  const frutas = [
-    {nome: "Maca", valor: 6.8, img: Maca},
-    {nome: "Pera",  valor: 3.4, img: Pera},
-    {nome: "Uva", valor: 5.4, img: Uva},
-    
-  ];
-  const mEscolar = [
-    {nome: "Caneta", valor: 6.8},
-    {nome: "Caderno",  valor: 3.4},
-    {nome: "Lápis", valor: 5.4},
-    
-  ];
+  const equipe7 = [
+    {nome: "Naruto", imagem: "", crt: "Caracteristica Naruto"},
+    {}
+  ]
 
   return (
     <div className="App">
-      {/* <Header/>
-      <Main/>
-      <Footer/> */}
-      <ExercicioList listas={mEscolar}/>
-      <Equipe/>
+      <Equipe listaP={equipe7}/>
     </div>
   );
 }

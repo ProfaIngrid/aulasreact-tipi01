@@ -1,11 +1,7 @@
 import ExibePerfil from '../ExibePerfil/ExibePerfil';
 import './equipe.css';
 
-function Equipe(){
-    const listaP = [
-        {nome:"Ingrid", imagem: "", crt: ""},
-        {nome:"Maria", imagem: "", crt: ""},
-    ]
+function Equipe({listaP}){
     return(
         <>
         <h1>Equipe</h1>
