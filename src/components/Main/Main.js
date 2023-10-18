@@ -18,9 +18,9 @@ function Main() {
     let caracSakura = " Ela é altamente treinada em técnicas médicas e se destaca na manipulação de chakra para curar ferimentos. Além disso, ela desenvolve habilidades de combate notáveis";
 
     const equipe7 = [
-        {nome: "Naruto", imagem: NarutoPerfil, crt: caracNaruto},
-        {nome: "Kakashi", imagem: KakashiPerfil, crt: caracKakashi},
-        {nome: "Sasuke", imagem: SasukePerfil, crt: caracSasuke},
+        {imagem: NarutoPerfil, crt: caracNaruto, categoria:"aluno"},
+        {nome: "Kakashi", imagem: KakashiPerfil, crt: caracKakashi, categoria: "professor"},
+        {nome: "Sasuke", imagem: SasukePerfil, crt: caracSasuke, categoria: "aluno"},
         {nome: "Sakura", imagem: SakuraPerfil, crt: caracSakura}
       ]
     
