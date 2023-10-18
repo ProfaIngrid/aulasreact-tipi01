@@ -24,14 +24,9 @@ function Main() {
         {nome: "Sakura", imagem: SakuraPerfil, crt: caracSakura}
       ]
     
-      const equipe8 = [
-        {nome: "Teste", imagem: "", crt: ""}
-      ]
-    
     return(
         <main>
             <Equipe titulo={"Equipe 7"} listaP={equipe7}/>
-            <Equipe titulo={"Equipe 8"} listaP={equipe8}/>
         </main>
     )
 }

@@ -1,0 +1,27 @@
+.prof{
+    font-size: 25px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.prof p{
+    background-color: black;
+    color: aliceblue;
+    border-radius: 5px;
+    width: 50%;
+}
+
+.aluno{
+    font-size: 25px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.aluno p{
+    background-color: purple;
+    color: aliceblue;
+    border-radius: 5px;
+    width: 50%;
+}
