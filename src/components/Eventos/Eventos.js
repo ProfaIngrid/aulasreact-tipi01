@@ -4,6 +4,10 @@ function Eventos(){
     let [conta, setConta] = useState(0);
     const [nome, setNome] = useState();
     
+    function enviaNome(){
+        console.log("Nome enviado com sucesso!");
+    }
+
     return(
         <>
         <p>O botão foi clicado {conta} vezes</p>
@@ -14,6 +18,7 @@ function Eventos(){
             value={nome} 
             onChange={(e) => setNome(e.target.value)}
         />
+        <button type="submit"></button>
         <p>O nome é: {nome}</p>
         
         </>
