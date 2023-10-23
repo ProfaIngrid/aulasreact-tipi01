@@ -9,16 +9,15 @@ import Uva from "../src/images/uva.webp";
 import ExercicioList from './components/ExercicioLista/ExercicioLista';
 import Equipe from './components/Equipe/Equipe';
 import Eventos from './components/Eventos/Eventos';
-import Api from './components/testeApi';
 
 function App() {
   
   return (
     <div className="App">
-      {/* <Header/>
+      {/*<Header/>
       <Main/>
-      <Footer/>  */}
-      <Api/>
+      <Footer/> */}
+      <Eventos/>
     </div>
   );
 }
