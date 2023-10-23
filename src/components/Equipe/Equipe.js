@@ -23,7 +23,7 @@ function Equipe({titulo, listaP}){
                 </div>
             )
         }
-    }
+    } 
 
     return(
         <>
@@ -32,11 +32,20 @@ function Equipe({titulo, listaP}){
             {listaP.map((p) => 
                 <div>
                     <img className="img-exibe-perfil" src={p.imagem} alt={p.nome}/>
-                    <h1>Nome: {p.nome}</h1>
+                    {
+                        p.nome === undefined  
+                        ? <h1>Sem nome!</h1> 
+                        : <h1>Nome: {p.nome}</h1>
+                    }
                     {cat(p.categoria, p.nome)}
                     {/* {p.categoria === "professor" ? <div className='prof'><p>Professor</p></div>: ""}
                     {p.categoria === "aluno"? <div className='aluno'><p>Aluno</p></div>: ""} */}
-                    <p>Habilidades: {p.crt}</p>
+                    
+                    {
+                        p.crt === undefined  
+                        ? <p>Sem Habilidades!</p>
+                        : <p>Habilidades: {p.crt}</p>
+                    }
                 </div>
             )} 
         </div>

@@ -8,15 +8,16 @@ import Pera from "../src/images/pera.webp";
 import Uva from "../src/images/uva.webp";
 import ExercicioList from './components/ExercicioLista/ExercicioLista';
 import Equipe from './components/Equipe/Equipe';
+import Eventos from './components/Eventos/Eventos';
 
 function App() {
   
   return (
     <div className="App">
-      <Header/>
+      {/* <Header/>
       <Main/>
-      <Footer/>
-      {/* {} */}
+      <Footer/>  */}
+      <Eventos/>
     </div>
   );
 }

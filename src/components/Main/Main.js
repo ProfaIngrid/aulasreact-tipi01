@@ -20,7 +20,7 @@ function Main() {
     const equipe7 = [
         {imagem: NarutoPerfil, crt: caracNaruto, categoria:"aluno"},
         {nome: "Kakashi", imagem: KakashiPerfil, crt: caracKakashi, categoria: "professor"},
-        {nome: "Sasuke", imagem: SasukePerfil, crt: caracSasuke, categoria: "aluno"},
+        {nome: "Sasuke", imagem: SasukePerfil, categoria: "aluno"},
         {nome: "Sakura", imagem: SakuraPerfil, crt: caracSakura}
       ]
     
