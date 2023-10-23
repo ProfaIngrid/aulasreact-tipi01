@@ -13,13 +13,15 @@ function Eventos(){
         <p>O botão foi clicado {conta} vezes</p>
         <button onClick={() => {setConta(conta + 1)}}>Clique aqui!</button>
         <br/>
+        <form>
         <input 
             type="text" 
             value={nome} 
             onChange={(e) => setNome(e.target.value)}
         />
-        <button type="submit"></button>
         <p>O nome é: {nome}</p>
+        <button type="submit"></button>
+        </form>
         
         </>
     )
