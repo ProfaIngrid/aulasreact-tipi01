@@ -7,7 +7,7 @@ function Eventos(){
     function enviaNome(e){
         //preventDefault() faz com que a página não recarregue 
         e.preventDefault();
-        console.log(`Nome: ${nome} enviado com sucesso!`);  
+        console.log(`Nome: ${nome} enviado com sucesso!`); 
     }
 
     return(
