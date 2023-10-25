@@ -10,6 +10,7 @@ import ExercicioList from './components/ExercicioLista/ExercicioLista';
 import Equipe from './components/Equipe/Equipe';
 import Eventos from './components/Eventos/Eventos';
 import InputUseState from './components/InputUseState/InputUseState';
+import ConsumindoApi from './components/ConsumindoApi/ConsumindoApi';
 
 function App() {
   
@@ -18,7 +19,7 @@ function App() {
       {/*<Header/>
       <Main/>
       <Footer/> */}
-      <InputUseState/>
+      <ConsumindoApi/>
     </div>
   );
 }
