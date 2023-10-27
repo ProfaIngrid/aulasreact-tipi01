@@ -17,8 +17,9 @@ function ConsumindoApi(){
             console.log(error);
         })
     }
-
+    
     return(
+        <>
         <form>
             <label>Pesquisar usuário: </label>
             <br/>
@@ -26,6 +27,16 @@ function ConsumindoApi(){
             <br/>
             <button onClick={buscaApi}>Pesquisar</button>
         </form>
+        <p>{
+            data.length === 0 ? 'Digite um cep para buscar' 
+            :
+            `${data.logradouro} - 
+            ${data.bairro}, 
+            ${data.localidade} -
+            ${data.uf},
+            ${data.cep}`
+        }</p>
+        </>
     )
 }
 
