@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/aulasreact-tipi01/static/css/main.883b4008.css",
+    "main.js": "/aulasreact-tipi01/static/js/main.1f38348b.js",
+    "static/js/787.32af0c9d.chunk.js": "/aulasreact-tipi01/static/js/787.32af0c9d.chunk.js",
+    "static/media/footer.png": "/aulasreact-tipi01/static/media/footer.d1b8d82f53fc82023f7e.png",
+    "static/media/kibaPerfil.webp": "/aulasreact-tipi01/static/media/kibaPerfil.3c5d1dcd89f347e3e6f7.webp",
+    "static/media/sakuraPerfil.webp": "/aulasreact-tipi01/static/media/sakuraPerfil.8fcac05fd5bb0e2c3e64.webp",
+    "static/media/sasukePerfil.webp": "/aulasreact-tipi01/static/media/sasukePerfil.16c92a31fc4fc4825d01.webp",
+    "static/media/kakashiPerfil.webp": "/aulasreact-tipi01/static/media/kakashiPerfil.22a4ac06ac12bbd8fb75.webp",
+    "static/media/kurenaiPerfil.webp": "/aulasreact-tipi01/static/media/kurenaiPerfil.2ce754758b2ceb17ecc0.webp",
+    "static/media/uva.webp": "/aulasreact-tipi01/static/media/uva.eb88ca3f8f2a5410e334.webp",
+    "static/media/maca.jpg": "/aulasreact-tipi01/static/media/maca.532cb6028c0d7b08e5d1.jpg",
+    "static/media/hinataPerfil.webp": "/aulasreact-tipi01/static/media/hinataPerfil.eb515a99acb668033b26.webp",
+    "static/media/pera.webp": "/aulasreact-tipi01/static/media/pera.8f6ef4aa084da55421d8.webp",
+    "static/media/shinoPerfil.jpg": "/aulasreact-tipi01/static/media/shinoPerfil.679387d875e6eed8e9fe.jpg",
+    "static/media/narutoPerfil.webp": "/aulasreact-tipi01/static/media/narutoPerfil.987b315ac8b7671b1d1d.webp",
+    "index.html": "/aulasreact-tipi01/index.html",
+    "main.883b4008.css.map": "/aulasreact-tipi01/static/css/main.883b4008.css.map",
+    "main.1f38348b.js.map": "/aulasreact-tipi01/static/js/main.1f38348b.js.map",
+    "787.32af0c9d.chunk.js.map": "/aulasreact-tipi01/static/js/787.32af0c9d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.883b4008.css",
+    "static/js/main.1f38348b.js"
+  ]
+}
